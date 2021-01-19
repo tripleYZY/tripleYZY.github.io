@@ -71,7 +71,7 @@ img {
   }  
 
   body h6 {
-    font-size: 13px;
+    font-size: 15px;
     text-decoration: line-through;
     color: #000;
   }
@@ -435,7 +435,6 @@ border-radius: 1.5rem;
   font-size: 10px;
   color: #000;
   text-decoration: none;
-  padding-top: 50px;
 }
 
 .popup a {
@@ -462,9 +461,9 @@ border-radius: 1.5rem;
 }
 .poppupHS__text {
   background-image: url(hs.svg);
-  background-size: 55%;
+  background-size: 45%;
   background-repeat: no-repeat;
-  background-position-x: 98%;
+  background-position-x: 80%;
   background-position-y: 50%;
 }
 
@@ -505,4 +504,16 @@ border-radius: 1.5rem;
   margin-bottom: 20px;
   border: 1px solid #2c2c2c;
   border-radius: 1.5rem;
+}
+
+.borders a {
+  display: inline-block;
+  width: 120px;
+}
+
+.borders svg {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  height: 120px;
 }
