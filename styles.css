@@ -300,6 +300,10 @@ background-size: 125%;
 
 .failed {
   position: absolute;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
   display: flex;
   transform: rotateY(180deg);
   top: 0;
