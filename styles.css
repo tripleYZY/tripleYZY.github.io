@@ -76,13 +76,13 @@ img {
     color: #000;
   }
 
-  body h5 {    
+  body h7 {    
     font-size: 50px;
     padding: 5px;
     background: linear-gradient(to left, #401c61, #87317E);
-    -webkit-background-clip:text;
+    -webkit-background-clip: text;
     background-clip:text;
-    -webkit-text-fill-color:transparent;
+    -webkit-text-fill-color: transparent;
     display:inline;    
   }
 
