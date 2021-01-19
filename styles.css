@@ -509,14 +509,7 @@ border-radius: 1.5rem;
 }
 
 .borders a {
-  display: inline;
+  display: inline-block;
   text-align: center;
   width: 150px;
-}
-
-.borders svg {
-  display: block;
-  margin: 0 auto;
-  width: 150px;
-  height: 120px;
 }
