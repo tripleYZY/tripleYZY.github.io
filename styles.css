@@ -286,11 +286,19 @@ background-size: 125%;
 .inner {
   position: relative;
   transition: transform 500ms ease-in-out;
+  -webkit-transition: transform 500ms ease-in-out;
+  -moz-transition: transform 500ms ease-in-out;
+  -ms-transition: transform 500ms ease-in-out;
+  -o-transition: transform 500ms ease-in-out;
 	transform-style: preserve-3d;
 }
 
 .inrctv:hover .inner {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
 
 .passed {
@@ -300,10 +308,6 @@ background-size: 125%;
 
 .failed {
   position: absolute;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
   display: flex;
   transform: rotateY(180deg);
   top: 0;
@@ -312,26 +316,11 @@ background-size: 125%;
 .passed,
 .failed {
   justify-content: center;
-	align-items: center;
+  align-items: center;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
 }
 
-
-/*.passed svg {
-  -webkit-transition: -webkit-transform 1.5s ease-in-out;
-  -ms-transition: -ms-transform 1.5s ease-in-out;
-  transition: transform 1.5s ease-in-out;
-  animation-fill-mode: backwards; 
-  transform-style: preserve-3d;
-}
-
-
-.passed:hover #tested {
-  transform: rotatey(-180deg);
-  -ms-transform: rotatey(-180deg);
-  -webkit-transform: rotatey(-180deg);
- } */
 
 .proj {
 text-align: center;
