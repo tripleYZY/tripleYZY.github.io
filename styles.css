@@ -463,10 +463,14 @@ background-size: 125%;
 
 .proj {
 text-align: center;
-margin-top: 100px;
-padding-top: 2px;
-border-top: 2px solid #fff;
+padding-top: 50px;
   }
+
+.proj h2 {
+  padding: 0 2rem 1rem;
+  border-bottom: 3px outset #fff;
+  border-radius: 45%;
+}
 
 footer .foot {
   text-align: center;
