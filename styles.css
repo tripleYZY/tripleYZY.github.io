@@ -225,11 +225,15 @@ flex: 1 1 40rem;
 
 nav a {
     color: #fff;
+    -webkit-transition: .4s;
+transition: .4s
 }
 
 nav li a:hover {
     color: rgba(100, 45, 150);
     text-decoration: none;
+    -webkit-transition: .4s;
+transition: .4s;
 }
 
 nav .nav-icon {
